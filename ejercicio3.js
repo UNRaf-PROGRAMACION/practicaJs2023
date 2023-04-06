@@ -1,9 +1,5 @@
-//Ingresar una palabra y mostrar: <PALABRA> tiene <n> letras.
+const palabra = "esternocleidomastoideo";
 
-let palabra = "Ho la";
-let limpiarPalabra = palabra.replace(" ", "");
-let cantidadLetras = limpiarPalabra.length;
+const letras = palabra.length;
 
-// La palabra "Hola" tienen 4 letras
-
-console.log("la cantidad de letras de " + palabra + " es " + cantidadLetras);
+console.log("La palabra "+ palabra + " tiene " + letras + " caracteres.");

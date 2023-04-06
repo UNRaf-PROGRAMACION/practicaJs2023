@@ -1,10 +1,15 @@
-//Ingresar un número e indicar si es par.
-let numero = 10;
-
-// % es el operador de modulo
+let numero = 5;
 
 if (numero % 2 === 0) {
-  console.log("El numero es par");
+    console.log(numero + " es par");
 } else {
-  console.log("El numero es impar");
+    console.log(numero + " es impar");
+}
+
+numero = 8;
+
+if (numero % 2 === 0) {
+    console.log(numero + " es par");
+} else {
+    console.log(numero + " es impar");
 }

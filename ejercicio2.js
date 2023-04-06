@@ -1,14 +1,24 @@
-//Ingresar tres valores e indicar cual es el mayor y cual el menor.
-let a = 10;
-let b = 2;
-let c = 3;
+const a = 42;
+const b = 24;
+const c = 6;
 
+// opcion con logica
 if (a > b && a > c) {
-  console.log("El numero mayor es: " + a);
+    console.log(a+" es el mayor");
+} else {
+    if (b > c) {
+        console.log(b+" es el mayor");
+    } else {
+        console.log(c+" es el mayor");
+    }
+}
+// opcion con fuerza bruta
+if (a > b && a > c) {
+    console.log(a+" es el mayor");
 }
 if (b > a && b > c) {
-  console.log("El numero mayor es: " + b);
+    console.log(b+" es el mayor");
 }
 if (c > a && c > b) {
-  console.log("El numero mayor es: " + c);
+    console.log(c+" es el mayor");
 }

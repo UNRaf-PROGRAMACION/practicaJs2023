@@ -1,6 +1,6 @@
-// Ingresar dos valores y sumarlos.
+const numero1 = 50;
+const numero2 = 100;
 
-let a = 10;
-let b = 2;
-let suma = a + b;
-console.log("La suma es: " + suma);
+const suma = numero1 + numero2;
+
+console.log("La suma de " + numero1 + " y " + numero2 + " es " + suma);
