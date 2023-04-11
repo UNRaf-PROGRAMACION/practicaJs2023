@@ -1,4 +1,11 @@
 const a = [2, 5, 6, 1];
+const b = [2, "hola", false];
+
+a.map((item) => console.log(item));
+a.map((item) => {
+  console.log(item);
+});
+
 // map
 // recorre los elemento y los multiplica por 2
 a.map((item) => {
